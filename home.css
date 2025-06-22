@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sora";
+    
+}
+
+
+.hero {
+    background: linear-gradient(240.86deg, #111111 0%, #313131 100%);
+}
+
+
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 24px 93px 20px;
+    position: relative;
+    
+}
+
+
+
+
+label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #A2A2A2;
+}
+
+
+
+select {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D8D8D8;  
+    padding: 4px 4px 4px 0;
+    background-color: transparent;
+    border: none;
+    
+}
+
+
+
+
+input {
+    border-radius: 12px;
+    border: none;
+    background: #2A2A2A;
+    padding: 18px 44px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+
+
+ .fa-magnifying-glass {
+    position: absolute;
+    left: 26px;
+    padding-left: 16px;
+    font-size: 30px;
+    color: #FFFFFF;
+
+}
+
+
+
+.bar .fa-bars-staggered {
+    background-color: #C67C4E;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+
+body {
+   background-color: #F9F9F9;
+}
+
+.banner-elements {
+    position: relative;
+    padding: 24px 24px 0 24px;
+    margin-top: -90px;
+     
+}
+
+
+
+.banner {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 16px;
+
+
+}
+
+
+
+.promotion {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    position: absolute;
+    top:  40px;
+    left: 50px;
+    
+}
+
+
+.promo-headings {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    top: 10px;
+    
+
+}
+
+
+.promotion p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #FFFFFF;
+    background-color: #ED5151;
+    border-radius: 8px;
+    width: 60px;
+    height: 26px;
+    text-align: center;
+    padding: 4px 6px;
+}
+
+
+
+.promotion--first__heading, .promotion--second__heading {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    
+}
+
+
+.first-overlay::after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    width: 200px;
+    height: 30px;
+    background: linear-gradient(240.86deg, #111111 0%, #313131 100%);
+
+}
+
+
+.second-overlay::after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    width: 150px;
+    height: 23px;
+    background: linear-gradient(240.86deg, #111111 0%, #313131 100%);
+
+
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+    list-style: none;
+    padding: 32px 24px 16px 24px;
+    overflow: scroll;
+   
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: #313131;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    background-color: #EDEDED59;
+    padding: 4px 8px;
+    border-radius: 6px;
+    
+}
+
+
+.all-coffee {
+    background-color: #C67C4E;
+    color: #FFFFFF;
+    border-radius: 6px;
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+
+.product-category {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 156px;
+    height: 238px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 8px;
+   
+}
+
+
+
+.coffee-image {
+    width: 140px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 12px;
+    
+}
+
+.rating {
+    position: absolute;
+    left: 96px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: linear-gradient(240.86deg, rgba(17, 17, 17, 0.3) 0%, rgba(49, 49, 49, 0.3) 100%);
+    padding: 8px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 24px;
+
+}
+
+
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+
+
+.fa-star {
+    color: #FBBE21;
+    font-size: 10px;
+}
+
+
+
+.product .rating p {
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+
+
+
+.product h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #242424;
+}
+
+
+.product p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #A2A2A2;
+}
+
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+
+.price h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #050505;
+}
+
+
+.fa-plus {
+    background-color: #C67C4E;
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+
+.coffee-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 15px 24px 24px;
+    margin-bottom: 28px;
+}
+

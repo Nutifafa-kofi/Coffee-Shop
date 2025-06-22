@@ -1,0 +1,435 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Sora", sans-serif;
+   
+}
+
+
+body {
+    background-color: #F9F9F9;
+}
+
+.order {
+    display: flex;
+    padding-top: 20px; 
+    padding-left: 24px;
+    justify-content: space-around;
+    position: relative;
+    right: 50px;
+}
+
+
+a {
+    color: #242424;
+}
+
+
+
+.requesting {
+    width: 327px;
+    height: 43px;
+    padding: 24px;
+    
+}
+
+
+.request {
+    display: flex;;
+    align-items: center;
+    background: #EDEDED;
+    border-radius: 12px;
+    padding: 4px;
+    gap: 47px;
+
+}
+
+
+.deliver {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 8px 47px;
+    background: #C67C4E;
+    text-align: center;
+}
+
+
+.pickup {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #242424;
+}
+
+
+
+
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 12px 16px 24px;
+
+}
+
+.address h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #242424;
+
+}
+
+.address h5 {
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #313131;
+
+}
+
+.address p {
+    font-family: Sora;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #A2A2A2;
+
+}
+
+
+.add-edit {
+    display: flex;
+    gap: 8px;
+    padding: 16px 86px 32px 24px;
+}
+
+
+.edit-address {
+    padding: 6px 12px;
+    border: 1px solid #A2A2A2;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #313131;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+
+
+
+.add-note {
+    border-radius: 16px;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid #A2A2A2;
+    border-radius: 16px;
+    color: #313131;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+
+
+
+
+
+.mocha {
+    width: 54px;
+    height: 54px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.coffee {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.coffee-name {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+
+.coffee-name h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #242424;
+    
+}
+
+.coffee-name p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #A2A2A2;
+
+}
+
+
+.coffee-description {
+    display: flex;
+    gap: 64px;
+    padding: 16px 24px ;
+}
+
+
+.order-icons {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    
+}
+
+
+.order-icons .fa-minus {
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #F9F2ED;  
+    border-radius: 20px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    color: #A2A2A2;
+}
+
+.order-icons p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2A2A2A;
+}
+
+
+
+.order-icons .fa-plus {
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #F9F2ED;  
+    border-radius: 20px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+
+}
+    
+.discount-section {
+    padding: 16px 24px 24px 24px;
+    
+}
+
+
+.get-discount {
+    width: 327px;
+    height: 56px;
+    border: 1px solid #EDEDED;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 90px;
+
+}
+
+
+
+.fa-gear {
+    color: #C67C4E;
+}
+
+
+
+
+.discount {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+
+
+.discount h5 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #313131;
+}
+
+
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 24px 32px 24px;
+    
+}
+
+
+
+
+.payment h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #242424;
+}
+
+
+
+
+.payment-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+
+}
+
+
+
+.payment-summary p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #313131;
+}
+
+
+
+
+.payment-summary h5 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #242424;
+}
+
+
+
+
+del {
+    color: #2A2A2A;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    
+}
+
+
+
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    gap: 247px;
+    
+}
+
+
+.delivery-fee {
+    display: flex;
+    justify-content: space-between;
+    gap: 164px;
+}
+
+
+
+.price-change {
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+.payment-column {
+    background-color: #FFFFFF;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 24px 46px 24px;
+}
+
+
+.payment-method {
+    display: flex;
+    gap: 117px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px 0 24px;
+}
+
+
+.cash-wallet {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+
+
+.cash-wallet h4 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    color: #242424;
+}
+
+
+
+
+.cash-wallet h5 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    color: #C67C4E;
+}
+
+
+
+
+
+.fa-wallet {
+    color: #C67C4E;
+}
+
+
+
+
+
+
+button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    border: none;
+    border-radius: 16px;
+    background-color: #C67C4E;
+    color: #FFFFFF;
+    padding: 16px 139px;
+}
